@@ -97,12 +97,6 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshot
-
-(Add your app screenshot here)
-
----
-
 ## 📌 Future Improvements
 
 * Use advanced models (Naive Bayes, SVM, Deep Learning)
@@ -111,8 +105,10 @@ streamlit run app.py
 * Add more dataset
 
 ---
-## Screenshot
+## 📸Screenshot
 ![WhatsApp Image 2026-04-03 at 11 58 24 PM](https://github.com/user-attachments/assets/2a1afa91-93d3-455d-ab86-68081829b7f1)
+<img width="1907" height="746" alt="Screenshot 2026-04-04 002141" src="https://github.com/user-attachments/assets/2cf537af-07c4-49f5-adc7-a8530e1af39d" />
+
 ## 🙌 Conclusion
 
 This project demonstrates how Machine Learning can be used for real-world text classification problems like spam detection.
