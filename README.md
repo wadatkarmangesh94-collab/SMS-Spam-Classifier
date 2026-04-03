@@ -115,14 +115,10 @@ This project demonstrates how Machine Learning can be used for real-world text c
 
 ## 🧠 Approach
 
-In this project, I built a Spam Message Classifier using Machine Learning.
-
-First, I collected the SMS Spam dataset and loaded it using pandas. Then, I cleaned the text data by converting all messages to lowercase and removing unnecessary characters.
-
-Next, I converted the text into numerical form using TF-IDF vectorization, which helps the model understand the importance of words.
-
-After that, I split the data into training and testing sets and trained a Logistic Regression model on the training data.
-
-Finally, I evaluated the model using accuracy, which was around 95%. I also saved the trained model and vectorizer using pickle.
+- In this project, I built a Spam Message Classifier using Machine Learning.
+- First, I collected the SMS Spam dataset and loaded it using pandas. Then, I cleaned the text data by converting all messages to lowercase and removing  unnecessary characters.
+- Next, I converted the text into numerical form using TF-IDF vectorization, which helps the model understand the importance of words.
+- After that, I split the data into training and testing sets and trained a Logistic Regression model on the training data.
+- Finally, I evaluated the model using accuracy, which was around 95%. I also saved the trained model and vectorizer using pickle.
 
 To make the project user-friendly, I created a simple Streamlit web app where users can enter a message and instantly see whether it is spam or not.
