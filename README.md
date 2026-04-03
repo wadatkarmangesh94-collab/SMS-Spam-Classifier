@@ -1,3 +1,4 @@
+
 # 📩 Spam Message Classifier
 
 This is a simple Machine Learning project that classifies SMS messages as **Spam** or **Not Spam (Ham)** using Natural Language Processing (NLP) techniques.
@@ -110,7 +111,22 @@ streamlit run app.py
 * Add more dataset
 
 ---
-
+## Screenshot
+![WhatsApp Image 2026-04-03 at 11 58 24 PM](https://github.com/user-attachments/assets/2a1afa91-93d3-455d-ab86-68081829b7f1)
 ## 🙌 Conclusion
 
 This project demonstrates how Machine Learning can be used for real-world text classification problems like spam detection.
+
+## 🧠 Approach
+
+In this project, I built a Spam Message Classifier using Machine Learning.
+
+First, I collected the SMS Spam dataset and loaded it using pandas. Then, I cleaned the text data by converting all messages to lowercase and removing unnecessary characters.
+
+Next, I converted the text into numerical form using TF-IDF vectorization, which helps the model understand the importance of words.
+
+After that, I split the data into training and testing sets and trained a Logistic Regression model on the training data.
+
+Finally, I evaluated the model using accuracy, which was around 95%. I also saved the trained model and vectorizer using pickle.
+
+To make the project user-friendly, I created a simple Streamlit web app where users can enter a message and instantly see whether it is spam or not.
